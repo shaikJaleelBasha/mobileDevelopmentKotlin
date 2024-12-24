@@ -43,6 +43,20 @@
                 <action  android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ImplicitActivity"
+            android:exported="true">
+            <intent-filter>
+                <action  android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormActivity"
+            android:exported="true">
+            <intent-filter>
+                <action  android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

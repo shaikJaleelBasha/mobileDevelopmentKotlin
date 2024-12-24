@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter the email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/emailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Get The Email"
+        />
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="TextView" />
+
+
+
+</LinearLayout>
